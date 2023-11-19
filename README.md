@@ -1,3 +1,8 @@
+## Frameworks usados:
+- ✅ Laravel.
+- ✅ Tailwind Css.
+- ✅ Bootstrap.
+
 # Pasos para usar este proyecto
 1. Instalar dependencias con composer: `composer install`.
 2. Copiar el contenido de `.env.example`, crear y pegar al archivo `.env`.
