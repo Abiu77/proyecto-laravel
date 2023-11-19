@@ -1,4 +1,4 @@
-# Pasos para usar este proyecto Laravel
+# Pasos para usar este proyecto
 1. Instalar dependencias con composer: `composer install`.
 2. Copiar el contenido de `.env.example`, crear y pegar al archivo `.env`.
 3. Generar la `APP_KEY` de la aplicación: `php artisan key:generate`.
@@ -6,7 +6,7 @@
 
 ### Crear base de datos
 1. Crear una base de datos para migrar la database de Laravel.
-### Migraciones
+### Migraciones - base de datos
 1. `php artisan migrate`.
 ### Levantar el servidor
-1. `php artisan serve --no-reload`
+1. `php artisan serve --no-reload`.
