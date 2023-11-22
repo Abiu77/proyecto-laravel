@@ -18,19 +18,20 @@
 <body>
  
     <section class="h-100 gradient-form" style="background-color: #eee;">
-        <div class="container py-5 h-100">
+        <div class="container py-5 h-100" style="width: 30%">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-xl-10">
-              <div class="card rounded-3 text-black">
+              <div class="card rounded-3 text-black>
                 <div class="row g-0">
-                  <div class="col-lg-6">
+
+                  
                     <div class="card-body p-md-5 mx-md-4">
       
-                      <div class="text-center">
-                        <img src="{{ asset('assets/tarea.png') }}"
-                          style="width: 185px;" alt="logo">
-                        <h4 class="mt-1 mb-5 pb-1">Iniciar Sesión</h4>
-                      </div>
+                                  <div class="text-center">
+                                    <img src="{{ asset('assets/tarea.png') }}"
+                                      style="width: 185px;" alt="logo">
+                                    <h4 class="mt-1 mb-5 pb-1">Iniciar Sesión</h4>
+                                  </div>
       
                       <form action="{{route('login')}}" method="POST">
                         @csrf     
@@ -56,18 +57,9 @@
                         </div>
       
                       </form>
-      
                     </div>
-                  </div>
-                  <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                      <h4 class="mb-4">El Camino del Código</h4>
-                      <p class="small mb-0">En el vasto paisaje de la programación, cada línea de código es un peldaño que te acerca a la cima de tus sueños digitales. No siempre será un camino llano; a menudo, te encontrarás con desafíos que parecen insuperables. Pero recuerda, cada error es una lección, cada bug una oportunidad de aprendizaje.
-                        <br>
-                     <br>
-                        La programación es una maratón, no un sprint. Cada día, avanza un poco más, mejora tu habilidad y tu conocimiento. No te rindas, porque con cada línea de código, estás construyendo un futuro lleno de posibilidades infinitas. ¡Sigue programando con pasión y alcanzarás nuevas alturas!</p>
-                    </div>
-                  </div>
+                  
+                  
                 </div>
               </div>
             </div>
