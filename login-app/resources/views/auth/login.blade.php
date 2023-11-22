@@ -17,22 +17,17 @@
 
 <body>
  
-    <section class="h-100 gradient-form" style="background-color: #eee;">
-        <div class="container py-5 h-100" style="width: 30%">
+    <section class="h-100 gradient-form">
+        <div class="container py-5 h-100" style="width: 40%">
           <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-xl-10">
-              <div class="card rounded-3 text-black>
-                <div class="row g-0">
-
-                  
+              <div class="rounded-3 text-black bordeado">
+                <div class="row rounded-3 desenfoque">
                     <div class="card-body p-md-5 mx-md-4">
-      
                                   <div class="text-center">
-                                    <img src="{{ asset('assets/tarea.png') }}"
+                                    <img src="{{ asset('assets/eva.png') }}"
                                       style="width: 185px;" alt="logo">
-                                    <h4 class="mt-1 mb-5 pb-1">Iniciar Sesión</h4>
+                                    <h4 class="mt-1 mb-5 pb-1" style="font-weight: bold; font-size: 30px">Iniciar Sesión</h4>
                                   </div>
-      
                       <form action="{{route('login')}}" method="POST">
                         @csrf     
       
@@ -52,17 +47,15 @@
                         </div>
       
                         <div class="d-flex align-items-center justify-content-center pb-4">
-                          <p class="mb-0 me-2">¿No tienes una cuenta?</p>
+                          <p class="mb-0 me-2 no-cuenta">¿No tienes una cuenta?</p>
                           <a href="{{route('register')}}" class="btn btn-outline-danger">Crear cuenta</a>
                         </div>
       
                       </form>
-                    </div>
-                  
-                  
+                    </div>  
                 </div>
               </div>
-            </div>
+            
           </div>
         </div>
       </section>

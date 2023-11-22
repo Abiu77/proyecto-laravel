@@ -20,3 +20,26 @@
   border-bottom-right-radius: .3rem;
   }
   }
+
+  body{
+    background-image: url(https://i.pinimg.com/originals/02/fc/8a/02fc8a00ad0d61bee0c04796f4a8fdeb.jpg);
+  }
+
+  .border{
+    
+  }
+  .bordeado{
+    border: 3px solid #fff;
+  
+  }
+  .desenfoque{
+    backdrop-filter: blur(25px);
+  }
+  label{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .no-cuenta{
+    font-size: 18px;
+    font-weight: 400;
+  }
