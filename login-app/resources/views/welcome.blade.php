@@ -24,7 +24,7 @@
         <div class="bienvenido">
             @if (Route::has('login'))
                 <header class="sm:top-0 sm:right-0 p-6 text-right z-10">
-                    <a href="" class="logo">TuVegano.com</a>
+                    <a href="" class="logo">OjO de Halcón.com</a>
                     <ul class="navlist">
                         <li><a href="">Salud</a></li>
                         <li><a href="">Agua</a></li>
@@ -50,16 +50,16 @@
 
             <section class="hero">
                 <div class="hero-text">
-                    <h5>Come sano</h5>
-                    <h4>Hoy comeras</h4>
-                    <h1>Verduras</h1>
-                    <p>Dicen los sabios entendidos, que uno debe comer para vivir, <br>
-                        no al contrario, por ello nútrete con consciencia, come frutas y verduras.</p>
-                        <a href="https://es.wikipedia.org/wiki/Verdura" target="_blank">Leer mas..</a>
-                        <a href="https://www.youtube.com/watch?v=2Vm0XQDP6l0" target="_blank" class="ctaa"> <i class="bi bi-play-fill"></i>ver video</a>
+                    <h5>Proteja</h5>
+                    <h4>INVIERTA EN</h4>
+                    <h1>Seguridad</h1>
+                    <p>Acceso desde cualquier lugar<br>
+                        a travez de su computadora o dispositivo movil.</p>
+                        <a href="https://www.acacioseguridad.com/camaras-de-vigilancia/" target="_blank">Leer mas..</a>
+                        <a href="https://www.youtube.com/watch?v=IyLE_D7YDxo" target="_blank" class="ctaa"> <i class="bi bi-play-fill"></i>ver video</a>
                 </div>
                 <div class="hero-img">
-                    <img src="{{ asset('assets/verduras.png') }}" alt="">
+                    <img src="{{ asset('assets/camara.png') }}" alt="">
                 </div> 
             </section>
             <div class="icons">

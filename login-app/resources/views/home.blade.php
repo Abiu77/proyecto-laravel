@@ -169,7 +169,7 @@
         <div class="home-content">
           <i class="fas fa-bars" style="color: #fff"></i>
           <article class="cabecera-menu">
-            <span style="font-size: 20px">TuVegano.com</span>
+            <span style="font-size: 20px">OjO de Halcón</span>
             <span>
               <a href="https://github.com/Abiu77" target="_blank"><i style="color: #fff; font-size: 28px" class="bi bi-github"></i></a>
               <a href="https://www.youtube.com/@tutosabiu/" target="_blank"><i style="color: #fff; font-size: 28px" class="bi bi-youtube"></i></a>
@@ -180,7 +180,7 @@
     <div class="menu-cabecera">
         <div class="nike">
           <div class="img-nike">
-            <img src="{{ asset('assets/logo.png') }}" style="width: 200px">
+            <img src="{{ asset('assets/vision.png') }}" style="width: 200px; height: 120px;">
           </div>  
         </div>
 
@@ -209,16 +209,16 @@
         <article class="galeria-box">
 
           <div class="pod-head">
-            <img style="width: 80%; height: 90%" src="https://plazavea.vteximg.com.br/arquivos/ids/518590-450-450/60769.jpg?v=637417681802200000" alt="">
+            <img style="width: 80%; height: 90%" src="https://promart.vteximg.com.br/arquivos/ids/7509408-275-275/151511.jpg?v=638320214922170000" alt="">
             <div class="hijo">
               <a href=""><i class="bi bi-heart"></i></a>
             </div>
           </div>
 
             <p style="line-height: 28px"> 
-                <strong>Tomate Italiano</strong><br>
-                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra <br>
-                  <i class="bi bi-check-circle-fill"></i> Despacho a Domicilio
+                <strong>Cámara Wifi Ismart Eyecam Giratoria 100p</strong><br>
+                <span style="font-size: 15px;"><i class="bi bi-check-circle-fill"></i> Retira tu compra 
+                  
                 </span>
                 <br>
                 <strong>S/ 5.60 x kg</strong>
