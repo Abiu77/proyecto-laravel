@@ -13,5 +13,7 @@
 1. Crear una base de datos para migrar la database de Laravel.
 ### Migraciones - base de datos
 1. `php artisan migrate`.
+### Compilar asset en modo desarrollo
+1. `npm run dev`.
 ### Levantar el servidor
 1. `php artisan serve --no-reload`.
